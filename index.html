@@ -1,0 +1,147 @@
+<!--
+Name: Nicholas
+Course: Web Development
+Teacher: Ms. Hoitink
+School: Pembina Trails Early College
+Date Last Modified: Friday October 18, 2024
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Treaty 1</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External stylesheet link -->
+    <style>
+        /* Internal styles for the home page */
+        #main-content {
+            padding: 20px;
+            /* this makes the main information have a bit of space inside it */
+            margin: auto;
+            /* this makes all the content shift to the right so it is not at the left of the screen which looks a bit ugly */
+            max-width: 800px;
+            /* this makes the contents of the webpage have a limit to the width, or else the width of the contents
+               will be on the entire width of the webpage */
+        }
+        .highlight {
+            background-color: #f0e68c;
+            /* this makes the highlighted text the color yellow */
+        }
+        nav {
+            position: fixed;
+            /* this makes the position of the nav bar follow you wherever you scroll */
+            background-color: #00796b;
+            /* this makes the color of the nav bar dark green, (lighter than the footer) */
+            width: 100%;
+            /* this makes the nav bar full width of the webpage */
+            top: 0;
+            /* this makes the nav bar at the top of the webpage */
+            z-index: 1000;
+            /* this makes the nav bar be above all the other elements in the document wherever you scroll on the website */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Where and when was treaty 1 signed?">Where and when was treaty 1 signed?</a></li>
+                <!-- this is the link in the navigation bar for the "Where and when was treaty 1 signed?" section -->
+                <li><a href="#Where exactly?">Where exactly?</a></li>
+                <!-- this is the link in the navigation bar for the "Where exactly?" section -->
+                <li><a href="#What communities are involved?">What communities are involved?</a></li>
+                <!-- this is the link in the navigation bar for the "What communities are involved?" section -->
+                <li><a href="#Agreements">Agreements</a></li>
+                <!-- this is the link in the navigation bar for the "Agreements" section -->
+                <li><a href="#How is treaty 1 different from other treatys?">How is treaty 1 different from other treatys?</a></li>
+                <!-- it is easier to name the links and titles the same thing -->
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="main-content">
+        <section id="Where and when was treaty 1 signed?">
+            <!-- section for "Where and when was treaty 1 signed?" -->
+            <h1 style="margin-top: 50PX;">Where and when was treaty 1 signed?</h1>
+            <!-- margin-top makes the title go lower than the navigation bar, so the navigation bar doesn't cover the title -->
+            <p>Treaty 1 was signed in <span class="highlight">1871 on August 3<sup>rd</sup></span> and it was signed in <span class="highlight">lower Fort Garry</span></p>
+            <!-- info and highlighted important information -->
+            <p>This treaty is important because it recognizes the rights and lands of Indigenous peoples in Canada.</p>
+            <!-- info on why it is important -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8O717cPRcf4?si=JBPwY2WiAN2HyYQH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- iframe for the YouTube video -->
+        </section>
+        
+        <section id="Where exactly?">
+            <!-- section for "Where exactly?" -->
+            <h2>Where exactly?</h2>
+            <p>It was signed in southern Manitoba where Winnipeg is located.</p>
+            <!-- info on where it was signed -->
+            <img src="image1.jpg" alt="This is an image of the treaties in Manitoba, treaty 1 is in the south" width="200">
+            <!-- image for the map of treaty 1 -->
+        </section>
+        
+        <section id="What communities are involved?">
+            <!-- section for "What communities are involved?" -->
+            <h2>What communities are involved?</h2>
+            <ul>
+                <li>Anishinaabe</li>
+                <li>Muskegon Cree peoples</li>
+                <li>The Crown</li>
+            </ul>
+            <!-- list for the communities involved, I made a list because it is easier to style -->
+        </section>
+        
+        <section id="Agreements">
+            <!-- section for "Agreements" -->
+            <h2>Agreements</h2>
+            <p>These were the agreements between the Indigenous peoples and the Crown:</p>
+            <ul>
+                <li>The tribes gave up their lands within specified boundaries to the Queen.</li>
+                <li>Beginning at the south line of St. Peter's Parish, 
+                    the Crown will give 160 acres for each family of five, or in that proportion
+                    for larger or smaller families, so if there is a family of 4, they will get 128 acres 
+                    for example and the proportions will continue according to the amount of people in the family.</li>
+                <li>At some period in July, the tribes will be receiving a payment of 15 Canadian dollars in goods
+                    such as blankets, clothing, prints (assorted colours), twine or traps or if permitted by the Crown
+                    can be given in cash. This payment will be received by family every month in July according
+                    to the proportion of people per family. A family of 5 will receive 15 Canadian dollars and for example,
+                    if it is a family of 4, the payment will be 12 Canadian dollars, however each chief will get
+                    an additional payment of 20 Canadian dollars in goods or cash and an additional suit of clothing
+                    to the chief every three years.</li>
+                <li>At the treaty's signing, every tribe member gets a gift worth 3 Canadian dollars.</li>
+                <li>If the reserve desires, the Queen permits a school to be maintained on the reserve.</li>
+                <li>Alcohol and intoxicating liquor is not permitted to be sold or introduced on reserves.</li>
+                <li>The Queen and the tribes promised peace between the settlers and the tribes.</li>
+                <!-- sorry for the long text, I just needed to explain in detail -->
+            </ul>
+        </section>
+        
+        <section id="How is treaty 1 different from other treatys?">
+            <!-- section for "How is treaty 1 different from other treatys?" -->
+            <h2>How is treaty 1 different from other treatys?</h2>
+            <ul>
+                <li>The treaty was among the first of the treaties signed by the Indigenous people.</li>
+                <li>Treaty 1 had very specific geographic focuses on where it will be located unlike the other treaties.</li>
+                <li>The prohibition of alcohol was rarely signed on treaties, but on Treaty 1, it did.</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p class="footer-paragraph">These are the sources for the webpages:</p>
+        <!-- this is the title for the footer -->
+        <a class="footer-link" href="https://www.canada.ca/en/parks-canada/news/2021/08/treaty-one-nation-and-government-of-canada-commemorate-150th-anniversary-of-treaty-no-1.html">When and where the treaty was signed</a>
+        <br>
+        <a class="footer-link" href="https://www.rcaanc-cirnac.gc.ca/DAM/DAM-CIRNAC-RCAANC/DAM-TAG/STAGING/texte-text/tre1-2_1100100028661_eng.pdf">Document to see the treaty in depth</a>
+        <br>
+        <a class="footer-link" href="https://youtu.be/8O717cPRcf4?si=5lJsH_mWVIpl1fkH">YouTube video link</a>
+        <br>
+        <a class="footer-link" href="https://www.sac-isc.gc.ca/eng/1100100020576/1616073943706">Link for the image</a>
+        <br>
+        <a class="footer-link" href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028664/1581294165927">Link to see the treaty 1 agreements and how treaty 1 is different from other treaties</a>
+        <!-- links for the resources I got all the info from -->
+    </footer>
+</body>
+</html>

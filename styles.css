@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    /*this is the font family*/
+    line-height: 1.6;
+    /*this is the line height*/
+    background-color: #e0f7fa;
+    /*this is the background color for the */
+    color: #333;
+    /*this is the color of the text*/
+    margin: 0;
+    /*this is to eliminate spaces and gaps around the elements*/
+    padding: 0;
+    /*this is to eliminate spaces and gaps inside the elements*/
+}
+
+header {
+    color: white;
+    /*this is to make the text in the header white*/
+    text-align: center;
+    /*this is to align the text to center in each part of header*/
+    width: 100%;
+    /*this is to make the width of the text large, so it is more visible*/
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    /*This makes the lists display in a single horizontal line*/
+    margin-right: 15px;
+    /*This makes the lists slightly right so that i can make sure thast the person knows that this is a list*/
+}
+
+nav a {
+    color: white;
+    /*this makes the text in the header white*/
+    text-decoration: none;
+    /*this makes the ugly link lines go away in the navigation bar, they kinda look disgusting*/
+}
+
+footer {
+    text-align: center;
+    /*this makes the links go to the center so they aren't on the left of the footer, which does not look good*/
+    padding: 10px 0;
+    /*this makes the text have a little space inside the link*/
+    background-color: #004d40;
+    /*this makes the background color of the footer match the color of the header with a 
+    slightly darker color to make it more visually apealing*/
+    color: white;
+    /*this makes the color of the paragraph white, the next ".footer-link" is making the links blue*/
+    bottom: 0;
+    /*this makes the footer all the way at the bottom*/ 
+    width: 100%;
+    /*this is the style for the footer*/
+}
+
+
+
+.footer-link {
+    color: #6490F6
+    /*it is easier to just do a hex than type in "light blue" or "blue"*/
+    /*this is to make the links blue, otherwise, some links are dark blue and some are blue, this is not visually appealing*/
+}
+
